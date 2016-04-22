@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="KelimeOyunu.Son.Last"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KelimeOyunu.Son"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.BottomAppBar>
+        <CommandBar Opacity="0.7" Foreground="#fff6d6" ClosedDisplayMode="Minimal" Background="#FF3C9AB7" >
+            <AppBarButton Icon="Home" x:Name="appbtnhome" Click="appbtnhome_Click"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/back.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Row="0" Grid.ColumnSpan="2" BorderBrush="#FFFBF2F2" BorderThickness="1" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" >
+            <TextBlock TextWrapping="Wrap" Text="Tüm Leveller Bitti !" FontSize="36" TextAlignment="Center" Foreground="#FFFBF2F2"/>
+        </Border>
+        <TextBlock x:Name="txtpoint" TextAlignment="Left" Text="Puanınız : " FontSize="30" Grid.Row="2" Grid.Column="0" Foreground="#FFFBF2F2" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+        <TextBlock x:Name="txtpass" Grid.RowSpan="2" TextAlignment="Center" FontWeight="Bold" FontSize="20" Grid.ColumnSpan="2" TextWrapping="Wrap" Grid.Row="3" Grid.Column="0" Foreground="#FFFBF2F2" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+        <TextBlock x:Name="txtpuan" TextAlignment="Center" TextWrapping="Wrap" Grid.Row="2" FontSize="20" Grid.Column="1"  Foreground="#FFFBF2F2" />
+    </Grid>
+</Page>
