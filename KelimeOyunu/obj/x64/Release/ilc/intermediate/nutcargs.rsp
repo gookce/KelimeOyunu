@@ -1,0 +1,9 @@
+/ignoreAccessChecks
+/metadataFile "C:\Users\MS-USER\Documents\Visual Studio 2015\Projects\KelimeOyunu\KelimeOyunu\obj\x64\Release\ilc\intermediate\ILTransformed\KelimeOyunu.metadata"
+/reflectionMetadataAssemblyName "System.Private.CoreLib"
+/o
+/sharedGenerics
+/ilmergeinfo "C:\Users\MS-USER\Documents\Visual Studio 2015\Projects\KelimeOyunu\KelimeOyunu\obj\x64\Release\ilc\intermediate\ILTransformed\KelimeOyunu.csv"
+/sharedGenericsMode StandardHeuristics
+/in "C:\Users\MS-USER\Documents\Visual Studio 2015\Projects\KelimeOyunu\KelimeOyunu\obj\x64\Release\ilc\intermediate\ILTransformed\KelimeOyunu.ilexe"
+/out "C:\Users\MS-USER\Documents\Visual Studio 2015\Projects\KelimeOyunu\KelimeOyunu\obj\x64\Release\ilc\intermediate\MDIL\KelimeOyunu.mdilexe"
