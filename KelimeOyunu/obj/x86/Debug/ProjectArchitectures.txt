@@ -1,0 +1,1 @@
+c:\users\ms-user\documents\visual studio 2015\Projects\KelimeOyunu\KelimeOyunu\KelimeOyunu.csproj;x86
